@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DashBoard"
+    android:orientation="vertical"
+    >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="0dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/main"
+            />
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="102dp"
+            android:layout_height="41dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="17dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="116dp"
+            android:background="@drawable/send"
+            android:text=""
+            tools:ignore="UnknownId" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="102dp"
+            android:layout_height="42dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/send"
+            android:layout_marginLeft="127dp"
+            android:layout_marginStart="127dp"
+            android:background="@drawable/request_btn"
+            android:text=""
+            tools:ignore="UnknownId" />
+
+        <!--<FrameLayout
+            android:id="@+id/frame_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:foreground="?attr/selectableItemBackground"
+            app:itemIconTint="@android:color/white"
+            app:itemTextColor="@android:color/white"
+            app:menu="@menu/navigation" />-->
+
+
+        <Button
+            android:id="@+id/nav"
+            android:layout_width="25dp"
+            android:layout_height="23dp"
+            android:layout_alignLeft="@+id/send"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/send"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/nav"
+            android:text="" />
+
+        <Button
+            android:id="@+id/down"
+            android:layout_width="32dp"
+            android:layout_height="21dp"
+            android:layout_above="@+id/send"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="-130dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="17dp"
+            android:background="@drawable/down"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/req_bitcoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="165dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginStart="33dp"
+            android:text="Request Bitcoin"
+            android:textColor="#00a7e2"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/req_either"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/req_bitcoin"
+            android:layout_marginLeft="150dp"
+            android:layout_marginStart="150dp"
+            android:fontFamily="sans-serif"
+            android:text="Request Ether"
+            android:textColor="#00a7e2"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/req_bitcoin"
+            android:layout_marginEnd="68dp"
+            android:layout_marginRight="68dp"
+            android:text="Request Bitcoin \n Cash"
+            android:textColor="#00a7e2"
+            android:textSize="10dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="0dp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/chart" />
+
+    </RelativeLayout>
+
+
+        <!--<TextView
+            android:id="@+id/req_bitcoin_cash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="150dp"
+            android:layout_marginEnd="56dp"
+            android:text="Request Bitcoin \n Cash"
+            android:textSize="10dp"
+            android:textColor="#00a7e2"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="56dp" />-->
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+

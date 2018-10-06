@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BLOCKCHAIN</string>
+    <string-array name="my_bitccin">
+        <item>My Bitcoin Wallet (0 BTC)</item>
+    </string-array>
+    <string-array name="regular">
+        <item>Regular</item>
+        <item>Priority</item>
+    </string-array>
+    <string name="home">Home</string>
+    <string name="bitcoin">Bitcoin</string>
+    <string name="ether">Ether</string>
+    <string name="bitcoin_cash">Bitcoin Cash</string>
+    <string name="exchange">Exchange</string>
+
+</resources>

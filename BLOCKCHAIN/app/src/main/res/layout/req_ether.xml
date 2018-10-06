@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/req_either"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="347px"
+        android:layout_height="91px"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="312px"
+        android:layout_height="27dp"
+        android:background="#004a7c"
+        android:shadowColor="#88d6f1"
+        android:text="Copy"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="296dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="332dp"
+        android:layout_height="36dp"
+        android:background="#88d6f1"
+        android:shadowColor="#88d6f1"
+        android:text="DONE"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+</android.support.constraint.ConstraintLayout>

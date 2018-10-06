@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    android:id="@+id/home"
+    android:icon="@drawable/home_logo"
+    android:title="@string/home" />
+
+    <item
+        android:id="@+id/bitcoin"
+        android:icon="@drawable/bit_logo"
+        android:title="@string/bitcoin" />
+
+    <item
+        android:id="@+id/ether"
+        android:icon="@drawable/ether_logo"
+        android:title="@string/ether" />
+
+    <item
+        android:id="@+id/bitcoin_cash"
+        android:icon="@drawable/bitcash_logo"
+        android:title="@string/bitcoin_cash" />
+    <item
+        android:id="@+id/exchange"
+        android:icon="@drawable/exchange_logo"
+        android:title="@string/exchange" />
+</menu>

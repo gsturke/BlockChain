@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/tools">
+   <!--color name="front">"#ebebeb"</color>
+    <solid android:textcolor="#ebebeb"/>
+    <stroke
+        android:width="2dp"
+        android:color="#ebebeb"
+        android:height="10dp"/>
+
+   <corners
+        android:radius="5dp"/>-->
+</resources>
